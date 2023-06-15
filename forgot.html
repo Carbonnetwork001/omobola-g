@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Forgot Password</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    
+    h1 {
+      text-align: center;
+    }
+    
+    form {
+      max-width: 300px;
+      margin: 20px auto;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    
+    input[type="email"], input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+    }
+    
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>Forgot Password</h1>
+  <form id="forgotPasswordForm">
+    <label for="email">Email:</label>
+    <input type="email" id="email" required>
+    <input type="submit" value="Reset Password">
+  </form>
+
+  <script>
+    document.getElementById("forgotPasswordForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+      var email = document.getElementById("email").value;
+      // Here you can perform additional validation or send an AJAX request to a server for password reset
+      // This is just a simple example to show an alert message with the entered email
+      alert("Password reset request for email: " + email);
+    });
+  </script>
+</body>
+</html>

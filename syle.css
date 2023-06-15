@@ -1,0 +1,174 @@
+/*****************TAG SELECTORS***************/
+footer {
+    background-color: aqua;
+}
+a {
+    text-align: center;
+}
+body {
+    background-color: burlywood;
+}
+
+
+
+h1{
+    color: black;
+    font-size: 50px;
+}
+p {
+    color: brown;
+    font-size: 30px;
+    
+}
+    
+
+span {
+    background-color: aqua;
+    font-size: 30px;   
+}
+footer {
+    background-color: black;
+}
+li {
+    color: brown;
+}
+/*
+img {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+}
+*/
+/*****************CLASS SELECTORS*************/
+
+.wedding {
+    text-align: left;
+}
+.weddingcake{
+       background-color: azure;
+       height: 300px;
+       width: 300px;
+       background-size: 350px;
+       
+}
+   .mediumcake {
+         background-color: azure;
+         height: 300px;
+         width: 300px;
+         background-size: 350px;
+   }
+   .meatpie {
+    background-color: azure;
+       height: 300px;
+       width: 300px;
+       background-size: 350px;
+       
+   }
+   .foodtray {
+    background-color: azure;
+       height: 300px;
+       width: 300px;
+       background-size: 350px;
+   }
+   .food_tray {
+    background-color: azure;
+       height: 300px;
+       width: 300px;
+       background-size: 350px;
+       
+   }
+   .doughnut{
+    background-color: azure;
+       height: 300px;
+       width: 300px;
+       background-size: 350px;
+   }
+   .chicken_pie{
+    background-color: azure;
+       height: 300px;
+       width: 300px;
+       background-size: 350px;
+   
+   }
+   .cakes{
+    background-color: azure;
+       height: 300px;
+       width: 300px;
+       background-size: 350px;
+   }
+   .cakeparfait{
+    background-color: azure;
+       height: 300px;
+       width: 300px;
+       background-size: 350px;
+       
+       
+   }
+   .cake_parfait{
+    background-color: azure;
+       height: 300px;
+       width: 300px;
+       background-size: 350px;
+   }
+   .birthday_cake_sample{
+    background-color: azure;
+       height: 300px;
+       width: 300px;
+       background-size: 350px;
+       
+   }
+   .about_us{
+    font-size: 25px;
+    background-color: aqua;
+    display: inline;
+   }
+   .our_services{
+    font-size: 25px;
+    background-color: aqua;
+    display: inline;
+   }
+   .paragraph {
+    font-size: 15px;
+   }
+   .h4 {
+    background-color: aqua;
+    display: inline;
+   }
+  .social_media {
+    height: 10px;
+    width: 10px;
+    position: relative;
+    left: 300px;
+  }
+  .login {
+    
+        background-color: aqua;
+    }
+.veat {
+    border-radius: 50px;
+    color: azure;
+    background-color: blue;
+}  
+.welcome {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 660px;
+}
+.email {
+    position: relative;
+    left: 640px;
+}
+.password {
+    position: relative;
+    left: 640px;
+}
+.veat {
+    position: relative;
+    left: 640px;
+}
+.dave {
+    text-align: center;
+}
+
+/***************************ID SELECTORS*****************************/
